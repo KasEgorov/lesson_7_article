@@ -1,0 +1,309 @@
+/* &display=swap */
+@import "null.css";
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@400;700;900&display=swap');
+/* ================================================================ */
+.wrapper {
+	min-height: 100%;
+	overflow: hidden;
+	
+}
+
+
+/* ================================================================ */
+
+
+
+body{
+font-family: "Lato", sans-serif;
+font-weight: 400;
+
+background:  url("../img/home-bg-min.jpg");
+
+
+background-repeat: no-repeat;
+background-size: 1370px 1170px;
+
+background-attachment: fixed;
+background-position: 0 0;
+background-repeat: no-repeat;
+background-size: 100% auto ;
+
+
+
+}
+
+.header{
+	font-size: 25px;
+	color: white;
+	text-transform: uppercase;
+	height: 60px;
+	background-color: rgb(97, 97, 218);
+	padding: 15px;
+	text-align: right;
+}
+
+.spider{
+width: 50px;
+height: 50px;
+
+}
+
+.cap_USA{
+margin-left: 850px;
+}
+
+.block_1{
+	 margin: 50px;
+	 padding: 20px;
+	 width: 1270px;
+	 height: 600px;
+	 background-image: url(../img/s-man.png);
+		background-size: 100px 100px;
+	background-color: rgba(87, 84, 84, 0.74);
+	 
+}
+
+h2{
+	font-weight: 700;
+	text-transform: uppercase;
+	text-align: center;
+	font-size: 30px;
+	color: rgb(34, 33, 33);	
+}
+
+.title{
+	background-color: rgb(226, 223, 174);
+}
+
+
+
+
+.block_2{
+	background-image: url(../img/s-man.png);
+	background-size: 100px 100px;
+	background-color: rgba(172, 13, 13, 0.616);
+	background-repeat: repeat-x;
+	margin: 50px;
+	padding-top: 250px;
+	padding: 20px;
+	width: 1270px;
+	height: 300px;
+
+	}
+
+.block_3{
+	background-repeat: repeat-y;
+	background-image: url(../img/s-man.png);
+	background-size: 100px 100px;
+	background-color: rgba(35, 71, 168, 0.603);
+	margin: 50px;
+	padding: 20px;
+	width: 1270px;
+	height: 600px;
+}
+
+.block_4{
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: 300px 400px;
+	background-image: url(../img/img1-min.png);
+	background-color: rgba(202, 200, 200, 0.699);
+	margin: 50px;
+	padding: 20px;
+	width: 1270px;
+	height: 600px;
+
+}
+
+.block_5{
+	background-position: left;
+	background-repeat: no-repeat;
+	background-size: 300px 400px;
+	background-image: url(../img/img1-min.png);
+	background-color: rgba(202, 200, 200, 0.767);
+	margin: 50px;
+	padding: 20px;
+	width: 1270px;
+	height: 600px;
+
+}
+
+.block_6{
+	background-attachment: fixed;
+	background-repeat: no-repeat;
+	background-image: url("../img/mountains.png");
+	background-color: rgb(195, 176, 212);
+	margin: 50px;
+	padding: 20px;
+	width: 600px;
+	height: 600px;
+	overflow: scroll;
+}
+
+
+
+.titles_6{
+	color: rgb(100, 100, 228);
+	background-color: rgb(194, 191, 187);
+}
+
+.block_7{
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: 300px 400px;
+	background-color: rgb(202, 200, 200);
+	margin: 50px;
+	padding: 20px;
+	width: 1270px;
+	height: 600px;
+	background:  url(../img/about-img.png), radial-gradient(circle, rgba(223,36,118,1) 15%, rgba(148,187,233,1) 100%);
+	
+}
+
+
+.block_8{
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: 300px 400px;
+	background-color: rgb(202, 200, 200);
+	margin: 50px;
+	padding: 20px;
+	width: 1270px;
+	height: 600px;
+	background: linear-gradient(90deg, rgba(222,98,56,1) 25%, rgba(46,44,42,0.28895308123249297) 99%),url(../img/img1-min.png) ;
+
+}
+
+
+.button_header{
+	width: 200px;
+	height: 40px;
+	text-align: center;
+	padding: 5px;
+	padding-top: 10px;
+	 color:white;
+	 margin: 50px;
+	 box-shadow: inset 0px 0px 10px 10px rgb(89, 56, 133);
+	 background-color: rgba(137, 43, 226, 0.658);
+	 border-radius: 14px;
+	 display: inline-block;
+	 
+}  
+
+
+.button_image{
+	width: 200px;
+	height: 40px;
+	text-align: center;
+	padding: 5px;
+	padding-top: 10px;
+	 color:white;
+	 margin: 50px;
+	 box-shadow: inset 0px 0px 10px 10px rgb(89, 56, 133);
+	 background-color: rgba(137, 43, 226, 0.658);
+	 border-radius: 14px;
+	 text-transform: uppercase;
+	 display: inline-block;
+}
+
+.button_x{
+	width: 200px;
+	height: 40px;
+	text-align: center;
+	padding: 5px;
+	padding-top: 10px;
+	 color:white;
+	 margin: 50px;
+	 box-shadow: inset 0px 0px 10px 10px rgb(89, 56, 133);
+	 background-color: rgba(137, 43, 226, 0.658);
+	 border-radius: 14px;
+	 text-transform: uppercase;
+	 display: inline-block;
+}
+
+.button_y{
+	width: 200px;
+	height: 40px;
+	text-align: center;
+	padding: 5px;
+	padding-top: 10px;
+	 color:white;
+	 margin: 50px;
+	 box-shadow: inset 0px 0px 10px 10px rgb(89, 56, 133);
+	 background-color: rgba(137, 43, 226, 0.658);
+	 border-radius: 14px;
+	 text-transform: uppercase;
+	 display: inline-block;
+}
+
+
+.button_center{
+	width: 200px;
+	height: 40px;
+	text-align: center;
+	padding: 5px;
+	padding-top: 10px;
+	 color:white;
+	 margin: 50px;
+	 box-shadow: inset 0px 0px 10px 10px rgb(89, 56, 133);
+	 background-color: rgba(137, 43, 226, 0.658);
+	 border-radius: 14px;
+	 text-transform: uppercase;
+	 display: inline-block;
+}
+
+.button_left{
+	width: 200px;
+	height: 40px;
+	text-align: center;
+	padding: 5px;
+	padding-top: 10px;
+	 color:white;
+	 margin: 50px;
+	 box-shadow: inset 0px 0px 10px 10px rgb(89, 56, 133);
+	 background-color: rgba(137, 43, 226, 0.658);
+	 border-radius: 14px;
+	 text-transform: uppercase;
+	 display: inline-block;
+}
+
+.button_att{
+	width: 200px;
+	height: 40px;
+	text-align: center;
+	padding: 5px;
+	padding-top: 10px;
+	 color:white;
+	 margin: 50px;
+	 box-shadow: inset 0px 0px 10px 10px rgb(89, 56, 133);
+	 background-color: rgba(137, 43, 226, 0.658);
+	 border-radius: 14px;
+	 text-transform: uppercase;
+	 display: inline-block;	
+}
+
+.button_grad{
+	width: 200px;
+	height: 40px;
+	text-align: center;
+	padding: 5px;
+	padding-top: 10px;
+	 color:white;
+	 margin: 50px;
+	 box-shadow: inset 0px 0px 10px 10px rgb(89, 56, 133);
+	 background-color: rgba(137, 43, 226, 0.658);
+	 border-radius: 14px;
+	 text-transform: uppercase;
+	 display: inline-block;	
+}
+
+
+
+
+footer{
+	color: white;
+	font-size: 20px;
+	text-align: center;
+}
+
+
